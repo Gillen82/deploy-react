@@ -1,0 +1,14 @@
+.watchlist {
+	max-width: 1200px;
+	margin: 50px auto;
+}
+
+.watchlist-title {
+	margin-bottom: 50px;
+}
+
+.watchlist-movies {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 50px;
+}
