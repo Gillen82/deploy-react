@@ -22,7 +22,7 @@ export default function App() {
 
 	useEffect(() => {
 		getMoviesData(movies_list);
-	}, [movies]);
+	}, []);
 
 	const toggleWatchlist = (movieId) => {
 		setWatchlist((prev) => (prev.includes(movieId) ? prev.filter((id) => id !== movieId) : [...prev, movieId]));
