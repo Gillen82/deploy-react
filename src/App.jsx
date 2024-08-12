@@ -32,7 +32,7 @@ export default function App() {
 		<div>
 			<Header />
 
-			<Router basename='/'>
+			<Router>
 				<Navigation />
 				<Routes>
 					<Route
